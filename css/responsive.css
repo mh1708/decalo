@@ -108,31 +108,7 @@
     .about__description--bottom {
         padding-bottom: 40px;
     }
-    .faq__button::after {
-        content: "";
-        display: block;
-        background: url(../images/line__through.svg) no-repeat;
-        font-size: 1rem;
-        top: 45%;
-        right: 9px;
-        width: 20px;
-        position: absolute;
-        height: 20px;
-        cursor: pointer;
-    }
-    .faq__button::before {
-        content: "";
-        display: block;
-        background: url(../images/line__through.svg) no-repeat;
-        transform: rotate(-90deg);
-        font-size: 1rem;
-        top: 35px;
-        right: 0px;
-        width: 20px;
-        position: absolute;
-        cursor: pointer;
-        height: 20px;
-    }
+
     .footer__list {
         max-width: 100%;
         flex: 0 0 100%;
@@ -759,7 +735,7 @@
         height: 5px;
     }
     .faq__button::after {
-        top: 50%;
+        top: 15px;
     }
     .btn__cart{
         width: 271px;
@@ -813,7 +789,7 @@
     .product__item .btn__add {
         padding: 5px 14px;
     }
-    .faq__button::after{
+    .faq__button.active::after{
         top: 56%;
     }
     .number__item {

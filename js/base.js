@@ -19,9 +19,6 @@ window.addEventListener("DOMContentLoaded", function() {
 
             header__nav.style.transition = 'all 0.5s ease';
             header__nav.style.display = "block";
-
-
-
         } else if (toggle__img.className == "cancel") {
             toggle__img.src = "images/menu_2.svg";
             toggle__img.className = "menu";
@@ -29,9 +26,6 @@ window.addEventListener("DOMContentLoaded", function() {
             overlay.classList.remove("active");
             header__nav.classList.remove("active");
             header__nav.style.display = "none";
-
-
-
         }
 
     });
